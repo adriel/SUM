@@ -1,0 +1,333 @@
+body {
+	background-color: #4f4f57;
+	color: #e0e2e2;
+	text-shadow: #000000 1px 1px 0;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* progress bar container */
+#progressbarCap{
+        border: 1px solid #00343b;
+        width:200px;
+        height:20px;
+        position:relative;
+        color:black; 
+}
+/* Correct text position of % */
+.text {
+	margin-top: 3px;
+}
+/* color bar */
+#progressbarCap div.progress{
+        position:absolute;
+        width:0;
+        height:100%;
+        overflow:hidden;
+        background-color: #445c60;
+}
+
+div#progressbarCap {
+	width: 100%;
+	background-color: #444d55;
+}
+
+/* text on bar */
+#progressbarCap div.progress .text{
+        position:absolute;
+        text-align:center;
+        color:white;
+}
+
+/* text off bar */
+#progressbarCap div.text{
+        position:absolute;
+        width:100%;
+        height:100%;
+        text-align:center;
+}
+
+/* progressbarDay START */
+
+#progressbarDay{
+        border: 1px solid #00343b;
+        width:200px;
+        height:20px;
+        position:relative;
+        color:black; 
+}
+#progressbarDay div.progress{
+        position:absolute;
+        width:0;
+        height:100%;
+        overflow:hidden;
+        background-color: #445c60;
+}
+
+div#progressbarDay {
+	width: 100%;
+	background-color: #444d55;
+}
+
+#progressbarDay div.progress .text{
+        position:absolute;
+        text-align:center;
+        color:white;
+}
+
+#progressbarDay div.text{
+        position:absolute;
+        width:100%;
+        height:100%;
+        text-align:center;
+}
+
+/* progressbarDay END */
+
+#main {
+
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 328px;
+	padding: 4px;
+}
+
+#mainTableResults {
+	width: 100%;
+}
+
+#subtitle {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #3b434b;
+	text-align: center;
+	text-shadow: #000000 2px 2px 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	float: left;
+	width: 100%;
+	border: 1px solid #00343b;
+}
+
+#statuserror {
+	font-size: 10px;
+	color: #ff6c00;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+#statuserrorfetch {
+	font-size: 10px;
+	color: #ffce00;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+#statusok {
+	font-size: 10px;
+	color: #80a99d;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+a {
+	text-decoration:none;
+	font-size: 10px;
+	color: #9dc8bf;
+	text-shadow: #000000 1px 1px 0px;
+}
+
+a:hover {
+	font-size: 10px;
+	background-color: #005966;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
+p {
+	text-align: left;
+	padding: 3px 3px 5px 9px;
+	text-shadow: #000000 1px 1px 0px;
+	margin: 1px 0 2px;
+	float: left;
+}
+
+#data {
+	color: #d5fff2;
+	float: left;
+	width: 100%;
+	padding-right: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+img {
+	width: 100%;
+}
+
+#data .name {
+	background-color: #003b44;
+	text-align: right;
+	margin-right: 2px;
+	float: left;
+	margin-left: 4px;
+	padding: 7px 2px 7px 5px;
+}
+
+#data .results {
+	background-color: #00424b;
+	padding: 7px 7px 7px 4px;
+	float: right;
+	margin-right: 4px;
+}
+
+#last5, #bottom, #data	{
+	background-color: rgba(0,66,75,0.13);
+		border: 1px solid #00343b;
+
+}
+
+#last5 {
+	color: #d5fff2;
+	clear: left;
+	text-align: left;
+	float: left;
+	margin-top: 3px;
+	width: 100%;
+	padding-bottom: 1px;
+	margin-bottom: 6px;
+}
+
+#last p {
+	text-align: right;
+	color: #9dc8bf;
+	font-size: 10px;
+	float: left;
+	clear: left;
+	padding: 0 3px 1px 1px;
+	margin-bottom: -3px;
+}
+
+#footer {
+	background-color: #8f8f8f;
+	color: #3d190b;
+	position: fixed;
+	top: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-shadow: #a4a5a7 1px 1px 0;
+	padding-left: 3px;
+	width: 127px;
+	border-top: 1px solid #3a3a3a;
+	border-right: 1px solid #3a3a3a;
+}
+
+	#fotterleft {
+	float: left;
+	}
+
+#footerright {
+	float: right;
+}
+
+td, tr {
+	padding-bottom: 0px;
+}
+
+th {
+	text-shadow: #000000 1px 1px 0px;
+	margin: 0;
+	padding: 0;
+}
+
+#pastFewRefresh {
+	width: 100%;
+	padding: 4px;
+	text-align: center;
+}
+
+th.thtime, th.TSOPT, th.TROPT {
+	text-align: center;
+}
+
+#routerstats1 p {
+	text-align: right;
+	background-color: #005f6e;
+	color: #9dc8bf;
+	font-size: 10px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+
+#RouterStatusn {
+	color: #b5f6eb;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: #000000 1px 1px 0px;
+	float: left;
+}
+
+#modemstatsall {
+	background-color: #00424b;
+	color: #d5fff2;
+	float: left;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#modemstatsname {
+	color: #b5f6eb;
+	float: left;
+	padding-left: 3px;
+}
+
+#modemstats {
+	color: #b5f6eb;
+	float: right;
+	padding-right: 21px;
+}
+
+#overonpeak {
+	color: #f00;
+}
+
+#warningonpeak {
+	color: #ffad2b;
+}
+
+#clearonpeak {
+	color: #0f0;
+}
+
+td.naming {
+	text-align: right;
+	padding-right: 5px;
+}
+
+#bottom {
+	font-size: 11px;
+	clear: both;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+}
+
+img#pb1_pbImage {
+	width: 127px;
+}
+
+span#pb1.progressbarCap {
+	width: 399px;
+}
+
+div.text {
+	width: 280px;
+	height: 45px;
+	text-shadow: #000 1px 1px 0;
+	color: #d5e2e2;
+}
