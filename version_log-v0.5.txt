@@ -1,8 +1,4 @@
-big test :P
-
 --- Slingshot usage API ---
-t1
-t2
 v1.0 - Ideas
 + Auto updates
 
