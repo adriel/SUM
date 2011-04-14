@@ -2,6 +2,7 @@
 	header("Cache-Control: no-cache, must-revalidate");
 	include 'config.php'; //incudes the main settings file 
 	include 'func.php'; //incudes the func.php file (where all the core functions are)
+print_r($_ENV);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -312,9 +313,3 @@ else {
 		</div>
 	</body>
 </html>
-
-<?
-
-print_r($_ENV);
-
-?>
