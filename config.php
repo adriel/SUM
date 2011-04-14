@@ -43,7 +43,7 @@ date_default_timezone_set('Pacific/Auckland'); // Sets timezone.
 	$userAgent = "Slingshot API - SSU $version";
 	
 	// Title
-	$siteTitle = "Slingshot Usage Monitor (SUM - v1)";
+	$siteTitle = "Slingshot Usage Monitor";
 	
 	// Turn on debug info [0=off, 1=on]
 	$debugInfo = 1;
