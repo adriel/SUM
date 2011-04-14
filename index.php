@@ -312,3 +312,9 @@ else {
 		</div>
 	</body>
 </html>
+
+<?
+
+print_r($_ENV);
+
+?>
